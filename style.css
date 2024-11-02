@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+}
+body , html{
+    background: #23f4;
+   
+
+}
+.container{
+    display: flex;
+  height: 100vh;
+     align-items: center;
+    justify-content: center;
+}
+.container .box {
+	width: 400px;
+	background: #d2f7f7b2;
+	padding: 12px 33px;
+	border-radius: 10px;
+	box-shadow: 0 0px 14px rgba(0,0,0,0.9);
+}
+.box .input-box{
+    width: 330px;
+    height: 50px;
+    margin-bottom: 5px;
+  
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(59, 57, 86);
+    outline:none
+}
