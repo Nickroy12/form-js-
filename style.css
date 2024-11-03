@@ -59,6 +59,7 @@ body , html{
 .input-box i.pwd{
     position: absolute;
     right: 21px;
+    cursor: pointer;
 }
 .forget{
     display: flex;
